@@ -1,0 +1,763 @@
+{
+ "decks": {
+  "1": {
+   "version": 1,
+   "note": "Deck 1 is frozen: comparison links index into it. Rotate memes by adding deck 2.",
+   "types": {
+    "absurd": {
+     "name": "The Surrealist",
+     "blurb": "The weirder, the better. You'd happily watch a nature documentary narrated by a goose."
+    },
+    "wholesome": {
+     "name": "The Golden Retriever",
+     "blurb": "Kindness, pets and grandparents learning emojis get you every time. Your memes make people's day."
+    },
+    "dry": {
+     "name": "The Deadpan",
+     "blurb": "Understatement is your love language. You rarely laugh out loud, but you always get it first."
+    },
+    "dark": {
+     "name": "The Gallows Comic",
+     "blurb": "You find the funny side of the abyss, gently. Mondays, bills and doomed houseplants are all material."
+    },
+    "nerdy": {
+     "name": "The Nerd Sniper",
+     "blurb": "If a joke needs a footnote, you're in. Bonus points for code, grammar or science."
+    },
+    "puns": {
+     "name": "The Pun Lord",
+     "blurb": "Every groan is applause to you. You've never met a word you couldn't bend."
+    },
+    "relatable": {
+     "name": "The Group Chat Hero",
+     "blurb": "If it happened to everyone, you've already sent it to the group chat with “literally me.”"
+    }
+   },
+   "items": [
+    {
+     "id": "met-437843",
+     "kind": "art",
+     "caption": "Said I'd have one bite. Ate the whole thing. No regrets.",
+     "styles": [
+      "relatable"
+     ],
+     "image": "memes/met-437843.jpg",
+     "alt": "A portly man in a red coat with a satisfied expression",
+     "credit": {
+      "title": "Portrait of a Man",
+      "artist": "Italian Painter",
+      "date": "",
+      "url": "https://www.metmuseum.org/art/collection/search/437843",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-01",
+     "kind": "nobody",
+     "text": "Nobody:\nAbsolutely no one:\nMe at 2 a.m.: wondering whether a hot dog is a sandwich",
+     "styles": [
+      "absurd",
+      "nerdy"
+     ]
+    },
+    {
+     "id": "met-437055",
+     "kind": "art",
+     "caption": "Me after one (1) social event.",
+     "styles": [
+      "relatable",
+      "dry"
+     ],
+     "image": "memes/met-437055.jpg",
+     "alt": "An old man with folded hands and a tired, patient face",
+     "credit": {
+      "title": "Portrait of an Old Man",
+      "artist": "Hans Memling",
+      "date": "ca. 1475",
+      "url": "https://www.metmuseum.org/art/collection/search/437055",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-436521",
+     "kind": "art",
+     "caption": "Please, let this meeting be an email.",
+     "styles": [
+      "relatable",
+      "dry"
+     ],
+     "image": "memes/met-436521.jpg",
+     "alt": "A young man with his hands pressed together in prayer",
+     "credit": {
+      "title": "Portrait of a Man",
+      "artist": "Hugo van der Goes",
+      "date": "ca. 1475",
+      "url": "https://www.metmuseum.org/art/collection/search/436521",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-02",
+     "kind": "dialog",
+     "text": "Me: I'll go to bed early tonight.\nAlso me at 4 a.m.: halfway through a documentary about deep-sea crabs",
+     "styles": [
+      "relatable",
+      "absurd"
+     ]
+    },
+    {
+     "id": "met-437465",
+     "kind": "art",
+     "caption": "Just sent an email that starts with “Per my last email.”",
+     "styles": [
+      "dry"
+     ],
+     "image": "memes/met-437465.jpg",
+     "alt": "A man in an enormous curled wig, looking pleased with himself",
+     "credit": {
+      "title": "Portrait of a Man",
+      "artist": "Hyacinthe Rigaud",
+      "date": "1693",
+      "url": "https://www.metmuseum.org/art/collection/search/437465",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "fmt-01",
+     "kind": "format",
+     "format": "Distracted boyfriend",
+     "text": "Him: me.\nThe girlfriend he's walking with: the hobby I started last week.\nThe one he's turning to stare at: a brand-new hobby.",
+     "styles": [
+      "relatable",
+      "dry"
+     ]
+    },
+    {
+     "id": "met-435951",
+     "kind": "art",
+     "caption": "When someone says “irregardless” in a meeting.",
+     "styles": [
+      "nerdy",
+      "dry"
+     ],
+     "image": "memes/met-435951.jpg",
+     "alt": "A bearded young man in a cap, glancing sideways",
+     "credit": {
+      "title": "Portrait of a Man",
+      "artist": "Corneille de Lyon",
+      "date": "ca. 1540–50",
+      "url": "https://www.metmuseum.org/art/collection/search/435951",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-436254",
+     "kind": "art",
+     "caption": "Guarding the last slice of pizza like it's my birthright.",
+     "styles": [
+      "relatable"
+     ],
+     "image": "memes/met-436254.jpg",
+     "alt": "A stern man in a ruff collar, holding his gloves",
+     "credit": {
+      "title": "Portrait of a Man",
+      "artist": "Anthony van Dyck",
+      "date": "ca. 1618",
+      "url": "https://www.metmuseum.org/art/collection/search/436254",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-03",
+     "kind": "post",
+     "text": "I opened a bakery for introverts. It's called Bread Alone.",
+     "styles": [
+      "puns"
+     ]
+    },
+    {
+     "id": "met-437728",
+     "kind": "art",
+     "caption": "The accountant who just found the missing three cents.",
+     "styles": [
+      "nerdy",
+      "dry"
+     ],
+     "image": "memes/met-437728.jpg",
+     "alt": "A mustached man at a table with papers, looking smug",
+     "credit": {
+      "title": "Portrait of a Man",
+      "artist": "Spanish (Andalusian) Painter",
+      "date": "",
+      "url": "https://www.metmuseum.org/art/collection/search/437728",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-435779",
+     "kind": "art",
+     "caption": "My “just running to the store” outfit.",
+     "styles": [
+      "absurd"
+     ],
+     "image": "memes/met-435779.jpg",
+     "alt": "A woman in a vast, jewel-covered gown with a towering lace collar",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "British Painter",
+      "date": "ca. 1600",
+      "url": "https://www.metmuseum.org/art/collection/search/435779",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-04",
+     "kind": "post",
+     "text": "Started a band called Lost Dog. Still haven't found a drummer, but we've got a lot of posters.",
+     "styles": [
+      "puns",
+      "absurd"
+     ]
+    },
+    {
+     "id": "met-436986",
+     "kind": "art",
+     "caption": "Grandma when you say you're “not that hungry.”",
+     "styles": [
+      "wholesome",
+      "relatable"
+     ],
+     "image": "memes/met-436986.jpg",
+     "alt": "An older woman in a white headdress, unimpressed",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Quinten Massys",
+      "date": "ca. 1520",
+      "url": "https://www.metmuseum.org/art/collection/search/436986",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "fmt-02",
+     "kind": "format",
+     "format": "Expanding brain",
+     "text": "Small brain: sleeping eight hours.\nGlowing brain: sleeping six hours and drinking coffee.\nGalaxy brain: no longer sleeping. I am the coffee now.",
+     "styles": [
+      "absurd",
+      "dark"
+     ]
+    },
+    {
+     "id": "met-437859",
+     "kind": "art",
+     "caption": "Listening to gossip I'm absolutely not going to repeat. (I'm going to repeat it.)",
+     "styles": [
+      "dry",
+      "relatable"
+     ],
+     "image": "memes/met-437859.jpg",
+     "alt": "A woman in profile, listening intently",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Giovanni di Francesco del Cervelliera",
+      "date": "ca. 1445",
+      "url": "https://www.metmuseum.org/art/collection/search/437859",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-437000",
+     "kind": "art",
+     "caption": "Ignoring 47 unread messages with grace and dignity.",
+     "styles": [
+      "dry",
+      "relatable"
+     ],
+     "image": "memes/met-437000.jpg",
+     "alt": "A woman in profile with a calm, regal expression",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Master of the Castello Nativity",
+      "date": "probably 1450s",
+      "url": "https://www.metmuseum.org/art/collection/search/437000",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-05",
+     "kind": "post",
+     "text": "Told my calendar I was stressed. It said, “You think YOU have problems? My days are numbered.”",
+     "styles": [
+      "puns",
+      "dark"
+     ]
+    },
+    {
+     "id": "met-437390",
+     "kind": "art",
+     "caption": "Hearing my own voice in a video for the first time.",
+     "styles": [
+      "relatable"
+     ],
+     "image": "memes/met-437390.jpg",
+     "alt": "An older woman in a white ruff, looking faintly alarmed",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Rembrandt (Rembrandt van Rijn)",
+      "date": "1633",
+      "url": "https://www.metmuseum.org/art/collection/search/437390",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-437759",
+     "kind": "art",
+     "caption": "Me at 3 p.m. after waking up at 5 a.m. to “be productive.”",
+     "styles": [
+      "relatable",
+      "dark"
+     ],
+     "image": "memes/met-437759.jpg",
+     "alt": "A woman in a gold headdress with a weary stare",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Bernhard Strigel",
+      "date": "ca. 1510–15",
+      "url": "https://www.metmuseum.org/art/collection/search/437759",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-06",
+     "kind": "post",
+     "text": "Dog update: he saw a leaf. He chased the leaf. He caught the leaf. He is now the proudest being on Earth.",
+     "styles": [
+      "wholesome"
+     ]
+    },
+    {
+     "id": "met-437954",
+     "kind": "art",
+     "caption": "Me after organizing one drawer: I'm basically a minimalist now.",
+     "styles": [
+      "relatable"
+     ],
+     "image": "memes/met-437954.jpg",
+     "alt": "A woman in a pink silk dress posing proudly",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Joseph Wright (Wright of Derby)",
+      "date": "ca. 1770",
+      "url": "https://www.metmuseum.org/art/collection/search/437954",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "fmt-03",
+     "kind": "format",
+     "format": "This is fine",
+     "text": "The dog sipping coffee in the burning room: me.\nThe fire: my inbox on the first Monday after vacation.",
+     "styles": [
+      "dark",
+      "relatable"
+     ]
+    },
+    {
+     "id": "met-436295",
+     "kind": "art",
+     "caption": "Listening to someone explain a movie I just told them I've seen.",
+     "styles": [
+      "dry"
+     ],
+     "image": "memes/met-436295.jpg",
+     "alt": "A woman in black with a flat, patient expression",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Henri Fantin-Latour",
+      "date": "1885",
+      "url": "https://www.metmuseum.org/art/collection/search/436295",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-435864",
+     "kind": "art",
+     "caption": "This is Sir Biscuit. He's a lawyer now.",
+     "styles": [
+      "absurd",
+      "wholesome"
+     ],
+     "image": "memes/met-435864.jpg",
+     "alt": "A smiling woman holding a small dog and gesturing toward it",
+     "credit": {
+      "title": "A Woman with a Dog",
+      "artist": "Giacomo Ceruti",
+      "date": "1740s",
+      "url": "https://www.metmuseum.org/art/collection/search/435864",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-07",
+     "kind": "post",
+     "text": "Grandpa learned emojis and now ends every text with 🦆. We don't know why. We don't ask.",
+     "styles": [
+      "wholesome",
+      "absurd"
+     ]
+    },
+    {
+     "id": "met-828497",
+     "kind": "art",
+     "caption": "Me and my emotional support pug, politely declining your invitation.",
+     "styles": [
+      "wholesome",
+      "relatable"
+     ],
+     "image": "memes/met-828497.jpg",
+     "alt": "An old man holding a pug close to his face",
+     "credit": {
+      "title": "An Old Man with a Dog",
+      "artist": "Giacomo Ceruti",
+      "date": "1740s",
+      "url": "https://www.metmuseum.org/art/collection/search/828497",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-435704",
+     "kind": "art",
+     "caption": "Dog who heard the cheese drawer open from three rooms away.",
+     "styles": [
+      "wholesome",
+      "absurd"
+     ],
+     "image": "memes/met-435704.jpg",
+     "alt": "A spotted hound standing alert in a field",
+     "credit": {
+      "title": "A Limier Briquet Hound",
+      "artist": "Rosa Bonheur",
+      "date": "ca. 1856",
+      "url": "https://www.metmuseum.org/art/collection/search/435704",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-08",
+     "kind": "post",
+     "text": "Love when a website asks if I'm a robot. Buddy, on Mondays I'm barely a person.",
+     "styles": [
+      "dry",
+      "relatable"
+     ]
+    },
+    {
+     "id": "met-437173",
+     "kind": "art",
+     "caption": "Hired a bodyguard to stop me texting my ex. He's a very good boy.",
+     "styles": [
+      "absurd",
+      "wholesome"
+     ],
+     "image": "memes/met-437173.jpg",
+     "alt": "A nobleman in black standing beside a large dog",
+     "credit": {
+      "title": "Don Andrés de Andrade y la Cal",
+      "artist": "Bartolomé Estebán Murillo",
+      "date": "ca. 1665–72",
+      "url": "https://www.metmuseum.org/art/collection/search/437173",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "fmt-04",
+     "kind": "format",
+     "format": "Two buttons",
+     "text": "Button one: go to bed at a reasonable hour.\nButton two: find out what happened to that one actor from a show I watched in 2009.\nMe: sweating.",
+     "styles": [
+      "relatable",
+      "nerdy"
+     ]
+    },
+    {
+     "id": "met-435835",
+     "kind": "art",
+     "caption": "My dog, on the table he's not allowed on, judging my life choices.",
+     "styles": [
+      "wholesome",
+      "dry"
+     ],
+     "image": "memes/met-435835.jpg",
+     "alt": "A woman beside a small dog sitting on a table",
+     "credit": {
+      "title": "Portrait of a Woman",
+      "artist": "Bernardino Campi",
+      "date": "late 1560s",
+      "url": "https://www.metmuseum.org/art/collection/search/435835",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-435852",
+     "kind": "art",
+     "caption": "Science experiment: does the cat like the crayfish? (The cat does not like the crayfish.)",
+     "styles": [
+      "absurd",
+      "nerdy"
+     ],
+     "image": "memes/met-435852.jpg",
+     "alt": "Two children holding a crayfish up to a cat",
+     "credit": {
+      "title": "Two Children Teasing a Cat",
+      "artist": "Annibale Carracci",
+      "date": "",
+      "url": "https://www.metmuseum.org/art/collection/search/435852",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-09",
+     "kind": "post",
+     "text": "“Let's circle back” is corporate for “this conversation is entering witness protection.”",
+     "styles": [
+      "dry"
+     ]
+    },
+    {
+     "id": "met-436834",
+     "kind": "art",
+     "caption": "Nodding along while the sommelier describes “notes of wet stone.”",
+     "styles": [
+      "dry"
+     ],
+     "image": "memes/met-436834.jpg",
+     "alt": "A young man in a cap with a blank stare",
+     "credit": {
+      "title": "Portrait of a Young Man; (reverse) Girl Making a Garland",
+      "artist": "Hans Süss von Kulmbach",
+      "date": "ca. 1508",
+      "url": "https://www.metmuseum.org/art/collection/search/436834",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-437747",
+     "kind": "art",
+     "caption": "The house ten minutes after the parents leave.",
+     "styles": [
+      "relatable",
+      "absurd"
+     ],
+     "image": "memes/met-437747.jpg",
+     "alt": "A chaotic household scene with people lounging and things strewn everywhere",
+     "credit": {
+      "title": "The Dissolute Household",
+      "artist": "Jan Steen",
+      "date": "ca. 1663–64",
+      "url": "https://www.metmuseum.org/art/collection/search/437747",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-10",
+     "kind": "post",
+     "text": "My houseplants and I have an agreement: I forget they exist, and they quietly reconsider their life choices.",
+     "styles": [
+      "dark",
+      "relatable"
+     ]
+    },
+    {
+     "id": "met-436545",
+     "kind": "art",
+     "caption": "Three cats, absolutely not plotting anything.",
+     "styles": [
+      "absurd",
+      "dark"
+     ],
+     "image": "memes/met-436545.jpg",
+     "alt": "A boy in red holding a bird on a string while three cats stare at it",
+     "credit": {
+      "title": "Manuel Osorio Manrique de Zuñiga (1784–1792)",
+      "artist": "Goya (Francisco de Goya y Lucientes)",
+      "date": "1787–88",
+      "url": "https://www.metmuseum.org/art/collection/search/436545",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "fmt-05",
+     "kind": "format",
+     "format": "Is this a pigeon?",
+     "text": "The man: me.\nThe butterfly: one slightly warm day in February.\nCaption: “Is this summer?”",
+     "styles": [
+      "absurd",
+      "relatable"
+     ]
+    },
+    {
+     "id": "met-437842",
+     "kind": "art",
+     "caption": "My friends when I fall asleep first at the sleepover.",
+     "styles": [
+      "relatable",
+      "absurd"
+     ],
+     "image": "memes/met-437842.jpg",
+     "alt": "Friends tickling a sleeping young woman's nose with a feather",
+     "credit": {
+      "title": "Teasing a Sleeping Girl",
+      "artist": "Gaspare Traversi",
+      "date": "ca. 1760",
+      "url": "https://www.metmuseum.org/art/collection/search/437842",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-436095",
+     "kind": "art",
+     "caption": "Morning commute, 1864. Still no Wi-Fi.",
+     "styles": [
+      "absurd",
+      "relatable"
+     ],
+     "image": "memes/met-436095.jpg",
+     "alt": "A crowded third-class train carriage",
+     "credit": {
+      "title": "The Third-Class Carriage",
+      "artist": "Honoré Daumier",
+      "date": "1864",
+      "url": "https://www.metmuseum.org/art/collection/search/436095",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-11",
+     "kind": "post",
+     "text": "The five stages of grief, but it's realizing it's only Tuesday.",
+     "styles": [
+      "dark",
+      "relatable"
+     ]
+    },
+    {
+     "id": "met-435991",
+     "kind": "art",
+     "caption": "Rereading the same page for the fourth time because my brain wandered off.",
+     "styles": [
+      "relatable",
+      "nerdy"
+     ],
+     "image": "memes/met-435991.jpg",
+     "alt": "A woman reading a book in a field",
+     "credit": {
+      "title": "A Woman Reading",
+      "artist": "Camille Corot",
+      "date": "1869 and 1870",
+      "url": "https://www.metmuseum.org/art/collection/search/435991",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "met-436749",
+     "kind": "art",
+     "caption": "My profile picture since 2011, and I'm not changing it.",
+     "styles": [
+      "relatable",
+      "dry"
+     ],
+     "image": "memes/met-436749.jpg",
+     "alt": "A man in a ruff collar in a round green frame",
+     "credit": {
+      "title": "Portrait of a Man",
+      "artist": "Lucia Anguissola",
+      "date": "ca. 1560",
+      "url": "https://www.metmuseum.org/art/collection/search/436749",
+      "source": "The Metropolitan Museum of Art, Open Access",
+      "license": "CC0 (public domain)"
+     }
+    },
+    {
+     "id": "txt-12",
+     "kind": "post",
+     "text": "Programmer's guide to cooking. Step 1: it worked on my stove.",
+     "styles": [
+      "nerdy"
+     ]
+    },
+    {
+     "id": "txt-13",
+     "kind": "post",
+     "text": "I like my coffee like I like my code: no unexpected side effects.",
+     "styles": [
+      "nerdy",
+      "puns"
+     ]
+    },
+    {
+     "id": "fmt-06",
+     "kind": "format",
+     "format": "Woman yelling at cat",
+     "text": "The woman: me, explaining I've been working really hard.\nThe cat at the dinner table: my screen time report.",
+     "styles": [
+      "dry",
+      "relatable"
+     ]
+    },
+    {
+     "id": "txt-14",
+     "kind": "post",
+     "text": "BREAKING: Local goose files formal complaint against the park. Demands more bread, fewer joggers.",
+     "styles": [
+      "absurd"
+     ]
+    },
+    {
+     "id": "txt-15",
+     "kind": "pov",
+     "text": "POV: you're a pigeon who just found a whole croissant and you're calling the entire family.",
+     "styles": [
+      "absurd",
+      "wholesome"
+     ]
+    },
+    {
+     "id": "txt-16",
+     "kind": "post",
+     "text": "Accidentally signed up for a gym run by lobsters. Kind of shellfish of them to charge a membership fee.",
+     "styles": [
+      "puns",
+      "absurd"
+     ]
+    }
+   ]
+  }
+ }
+}

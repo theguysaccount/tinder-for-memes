@@ -1,0 +1,33 @@
+# Monthly: confirm with The Met's Open Access API that every painting in the deck is still public
+# domain. A painting that isn't fails the run (and opens an ops-alert issue) so it can be replaced;
+# an API that refuses or times out is only a warning. The site is never touched.
+name: Monthly license check
+
+on:
+  schedule:
+    - cron: "41 9 7 * *"   # the 7th of every month, 09:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  licenses:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Ask The Met about every painting
+        run: python3 scripts/check_licenses.py
+      - name: Record the failure in an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create ops-alert --color B42318 --description "Automated health check failed" 2>/dev/null || true
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          gh issue create --label ops-alert --title "A painting may no longer be public domain" --body "The monthly license check failed: $run. Replace the painting (OPERATIONS.md, 'Replacing a meme')."
