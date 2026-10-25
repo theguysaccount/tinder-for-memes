@@ -51,11 +51,17 @@ function runSwipes(box, { onDone }) {
       </div>
       <p class="hint">Swipe, tap, or use ← and → keys.</p>`;
     preload(i + 1);
+    if (box.getBoundingClientRect().top < 0) box.scrollIntoView({ block: "start" });
     const card = $("[data-card]", box);
     box.querySelectorAll("[data-vote]").forEach((b) => b.addEventListener("click", () => vote(b.dataset.vote === "1")));
     $("[data-undo]", box).addEventListener("click", () => { if (i > 0) { i--; likes.length = i; render(); } });
     let x0 = null, dx = 0;
-    card.addEventListener("pointerdown", (ev) => { x0 = ev.clientX; dx = 0; card.setPointerCapture(ev.pointerId); card.style.transition = "none"; });
+    card.addEventListener("pointerdown", (ev) => {
+      x0 = ev.clientX;
+      dx = 0;
+      try { card.setPointerCapture(ev.pointerId); } catch (e) { /* synthetic or already released pointer */ }
+      card.style.transition = "none";
+    });
     card.addEventListener("pointermove", (ev) => {
       if (x0 === null) return;
       dx = ev.clientX - x0;
